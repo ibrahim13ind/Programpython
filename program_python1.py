@@ -52,7 +52,7 @@ while run:
             pygame.quit()
             sys.exit()
         elif e.type == pygame.KEYDOWN :
-            if e.key == pygame.K_LEFT :
+            if e.key == pygame.K_SPACE :
                 tombol =1
 
     i=hitungnomor(i,tombol)
