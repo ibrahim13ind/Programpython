@@ -13,10 +13,8 @@ b2 = b1+lebarblok
 def hitungnomor(i,tombol):
     if i == 3 and tombol ==1:
         i=0
-    elif i == 0 and tombol ==-1:    
-        i=3   
     else:
-        i=i+tombol
+        i=i+tombo
     return i     
 
 screen = pygame.display.set_mode((W, H))
@@ -56,8 +54,6 @@ while run:
         elif e.type == pygame.KEYDOWN :
             if e.key == pygame.K_LEFT :
                 tombol =1
-            elif e.key == pygame.K_RIGHT :
-                tombol=-1
 
     i=hitungnomor(i,tombol)
     kedalaman=kedalaman+b_speed
