@@ -14,7 +14,7 @@ def hitungnomor(i,tombol):
     if i == 3 and tombol ==1:
         i=0
     else:
-        i=i+tombo
+        i=i+tombol
     return i     
 
 screen = pygame.display.set_mode((W, H))
