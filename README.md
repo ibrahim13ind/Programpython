@@ -1,2 +1,2 @@
 # Programpython
-ini adala repository untuk python
+ini adalah repository untuk python
